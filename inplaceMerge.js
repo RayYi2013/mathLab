@@ -8,38 +8,71 @@
  */
 //void inplace_merge(int* a, int* b, int n);
 
-function inplace_merge(a,b,n){
-  var c = 2*n-1;
-  var c1 = n-1;
-  for(var i=n-1; i>=0; i--){
-    var p = findLowest(b,a[i],c1);
-    if(p>0){
-      for(var j= p; j<b.length; j++)
-      {
-        a[c--] = b[j];
+//a and b are sorted array.
+function inplaceMerge1(a, b){
+  var i_a = a.length-1,
+    i_b = b.length- 1,
+    n = a.length + b.length;
+
+  if(a[i_a]<b[0]){
+    a.push(b);
+    return true;
+  }
+
+  for(var i=0; i<n; i++){
+    if(i_a>=0 && i_b >=0){
+      if(a[i_a]>b[i_b]){
+        a[n-1-i] = a[i_a--];
       }
-      c1=p-1;
+      else{
+        a[n-1-i] = b[i_b--];
+      }
     }
-    else
-    {
-      a[c--]=a[i];
+    else{
+      if(i_a<0 && i_b>=0){
+        a[i_b]=b[i_b--];
+      }
     }
   }
-}
 
-function findLowest(a, c, c1){
-  for(var i=0; i<c1; i++){
-    if(c<a[i]) return i;
+  return true;
+}
+//a and b are sorted array.
+function inplaceMerge(a, b){
+  var i_a = a.length-1,
+    i_b = b.length- 1,
+    n = a.length + b.length - 1;
+
+  while(i_a>=0 && i_b>=0){
+    if(i_a<0){
+      a[i_b] = b[i_b];
+      i_b--;
+      continue;
+    }
+    if(i_b<0){
+      break;
+    }
+
+    if(a[i_a] > b[i_b]){
+        a[n] = a[i_a--];
+    } else{
+        a[n] = b[i_b--];
+    }
+    n--;
   }
-  return -1;
+
+  return true;
 }
 
+function sortNumber(a,b) {
+  return a - b;
+}
 
 function main(){
-  var a= [1,5, 6, 9, 0,0,0,0];
-  var b = [3,4,7,10];
+  var a= [1,5, 6, 9,111, 20].sort(sortNumber);
+  var b = [3,4,7,10].sort(sortNumber);
 
-  inplace_merge(a,b,4);
+  inplaceMerge(a,b);
 
   console.dir(a);
 

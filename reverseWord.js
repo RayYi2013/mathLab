@@ -21,6 +21,30 @@ function reverse_words1(input){
 }
 
 function reverse_words(input){
+  var a=[], n = input.length;
+  for(var i=0; i<n; i++){
+    a[i]=input[i];
+  }
+
+  var s = 0, e = input.length- 1,
+    first_s = s, first_e =s, last_s =e,last_e = e,
+    first = false, last = false;
+  while(s>=e){
+    if(input[s]==' '){
+      if(first_s != first_e){
+        first = true;
+      }
+      else{
+        first_s = first_e = s;
+      }
+    }
+    else{
+      first_e = s-1;
+    }
+  }
+}
+
+function reverse_words1(input){
   var n = input.length;
   var a=[];
   var s=n, e=n;
