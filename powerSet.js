@@ -8,6 +8,26 @@
 
 
 function powerSet(sourceSet){
+    var n = sourceSet.length,
+        res = [null],
+        l = 0,
+        item = 0;
+    for(var i = 0; i<n; i++){
+        l = res.length;
+        item = sourceSet[i];
+        for(var j = 0; j<l; j++){
+            if(res[j]==null){
+                res.push(item);
+            }
+            else{
+                res.push([res[j],item]);
+            }
+        }
+    }
+    return res;
+}
+
+function powerSet1(sourceSet){
     var n ,  item, j,
         res = [];
 

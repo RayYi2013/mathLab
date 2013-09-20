@@ -20,28 +20,44 @@ function reverse_words1(input){
   return a.join(' ');
 }
 
-function reverse_words(input){
-  var a=[], n = input.length;
-  for(var i=0; i<n; i++){
-    a[i]=input[i];
-  }
+function reverse(a, s, e){
+    var tmp;
+    var i = 0, c=s;
+    while(c<e){
+        tmp = a[s+i];
+        a[s+i] = a[e-i];
+        a[e-i] = tmp;
+        i++;
+        c += 2;
+    }
+}
 
-  var s = 0, e = input.length- 1,
-    first_s = s, first_e =s, last_s =e,last_e = e,
-    first = false, last = false;
-  while(s>=e){
-    if(input[s]==' '){
-      if(first_s != first_e){
-        first = true;
-      }
-      else{
-        first_s = first_e = s;
-      }
+function reverse_words(input){
+    var a=[], n = input.length, i, s;
+    for(i=0; i<n; i++){
+        a[i]=input[i];
     }
-    else{
-      first_e = s-1;
+
+    //reverse whole string
+    reverse(a,0,n-1);
+
+    i=0;
+    while(i<n){
+        //skip space.
+        while(i<n && a[i]==' '){
+            i ++;
+        }
+        s = i;
+
+        //find word
+        while(i<n && a[i]!=' '){
+            i ++;
+        }
+        reverse(a,s,i-1);
     }
-  }
+//    reverse(a,s,i-1);
+
+    return a.join('');
 }
 
 function reverse_words1(input){
