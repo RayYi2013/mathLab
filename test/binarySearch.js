@@ -25,12 +25,14 @@ function sortNumber(a,b) {
   return a - b;
 }
 
-function main(){
-  var a = [2,3,3,4,5,6,32,7,8,9,11,23,66,24,25,266,43];
-  a.sort(sortNumber);
-  var key = 8;
-  console.log('find key %s in position %d in the array: %j',key,binarySearch(a,key),a);
+var data = [2,3,3,4,5,6,32,7,8,9,11,23,66,24,25,266,43];
+data.sort(sortNumber);
 
+module.exports.start = function(){
+  console.log('please input key in the array:');
+  console.dir(data);
 }
 
-main();
+module.exports.doTest = function(input){
+  console.log('find key %s in position %d in the array.',input,binarySearch(data,input));
+};

@@ -5,6 +5,8 @@
  * Time: 5:22 PM
  * To change this template use File | Settings | File Templates.
  */
+var stdin = require('../util/stdin');
+
 
 function isUniqueChars(input){
     var checker = 0,
@@ -12,7 +14,7 @@ function isUniqueChars(input){
         c;
 
     for(var i=0; i<n; i++){
-        c = input[i] - 'a';
+        c = input.charCodeAt(i) - 'a'.charCodeAt(0);
         c = 1<<c;
         if((checker & (c))>0){
             return false;
@@ -22,20 +24,12 @@ function isUniqueChars(input){
     return true;
 }
 
-
-
-function main(){
-    process.stdin.resume();
-    process.stdin.setEncoding('utf8');
-    process.stdout.write("please input a string: ");
-
-    process.stdin.on('data', function (data) {
-        data = data.toString().trim();
-        var res = isUniqueChars(data);
-//        res.sort();
-
-        console.dir('input ' + res ? 'is' : 'is not' + ' uniqueChars.');
-    });
+module.exports.start = function(){
+  console.log('please input test string:');
 }
 
-main();
+module.exports.doTest = function(input){
+  var res = isUniqueChars(input);
+  console.dir('input ' + (res ? 'is' : 'is not') + ' uniqueChars.');
+  return false;
+};

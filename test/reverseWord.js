@@ -80,18 +80,16 @@ function reverse_words1(input){
   return a.join(' ');
 }
 
-function main(){
-  process.stdin.resume();
-  process.stdin.setEncoding('utf8');
-  process.stdout.write("please input a string: ");
 
-  process.stdin.on('data', function (data) {
-    data = data.toString().trim();
-    var res = reverse_words(data);
-//        res.sort();
 
-    console.dir(res);
-  });
+var start = function(){
+  console.log('please input test string:');
 }
 
-main();
+module.exports.start = start;
+
+module.exports.doTest = function(input){
+  var res = reverse_words(input);
+  console.log('new string is:\n%s\n\n\n',res);
+  start();
+};

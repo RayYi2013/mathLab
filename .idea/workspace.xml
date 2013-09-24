@@ -5,11 +5,20 @@
     <ignored path="MathLab.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/powerSet.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379549163369" ignored="false" />
-    <file path="/reverseWord.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379533476596" ignored="false" />
+    <file path="/reverseWord.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379658435686" ignored="false" />
     <file path="/inplaceMerge.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379486115765" ignored="false" />
-    <file path="/binarySearch.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379483499225" ignored="false" />
+    <file path="/binarySearch.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379656730468" ignored="false" />
     <file path="/quickSort.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379634995447" ignored="false" />
-    <file path="/isUniqueChars.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379637068399" ignored="false" />
+    <file path="/isUniqueChars.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379655609556" ignored="false" />
+    <file path="/permutation.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379657287910" ignored="false" />
+    <file path="/stdin.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379651698458" ignored="false" />
+    <file path="/test.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379658317620" ignored="false" />
+    <file path="/replaceInString.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379660850751" ignored="false" />
+    <file path="/compress.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379667502639" ignored="false" />
+    <file path="/rotateMatrix.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379746613780" ignored="false" />
+    <file path="/nthToLast.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379787382235" ignored="false" />
+    <file path="/helper.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379786247996" ignored="false" />
+    <file path="/linkedListAddition.js" changelist="87374f92-b65f-4fd1-87e0-5faafca188e6" time="1379828752717" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,68 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="powerSet.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/powerSet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="7" selection-start="1045" selection-end="1611" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quickSort.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="quickSort.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quickSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="800" selection-end="908" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc;n#quickSort#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isUniqueChars.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/isUniqueChars.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.30874008">
-              <folding>
-                <element signature="n#!!doc;n#isUniqueChars#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reverseWord.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reverseWord.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="45" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binarySearch.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binarySearch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="481" selection-end="692" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phoneInterviewWithFacebook.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoneInterviewWithFacebook.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="395" selection-end="811" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inplaceMerge.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inplaceMerge.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="59" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+            <state line="12" column="23" selection-start="240" selection-end="240" vertical-scroll-proportion="0.077380955">
               <folding />
             </state>
           </provider>
@@ -106,21 +57,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/phoneInterviewWithFacebook.txt" />
-        <option value="$PROJECT_DIR$/binarySearch.js" />
-        <option value="$PROJECT_DIR$/inplaceMerge.js" />
-        <option value="$PROJECT_DIR$/reverseWord.js" />
-        <option value="$PROJECT_DIR$/powerSet.js" />
-        <option value="$PROJECT_DIR$/quickSort.js" />
+        <option value="$PROJECT_DIR$/replaceInString.js" />
+        <option value="$PROJECT_DIR$/util/stdin.js" />
         <option value="$PROJECT_DIR$/isUniqueChars.js" />
+        <option value="$PROJECT_DIR$/test/isUniqueChars.js" />
+        <option value="$PROJECT_DIR$/test/binarySearch.js" />
+        <option value="$PROJECT_DIR$/test/permutation.js" />
+        <option value="$PROJECT_DIR$/test/replaceInString.js" />
+        <option value="$PROJECT_DIR$/test/compress.js" />
+        <option value="$PROJECT_DIR$/test/rotateMatrix.js" />
+        <option value="$PROJECT_DIR$/rotateMatrix.js" />
+        <option value="$PROJECT_DIR$/nthToLast.js" />
+        <option value="$PROJECT_DIR$/test/reverseWord.js" />
+        <option value="$PROJECT_DIR$/util/helper.js" />
+        <option value="$PROJECT_DIR$/test/nthToLast.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/test/linkedListAddition.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1602" />
-    <option name="height" value="1066" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -174,13 +134,18 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/inplaceMerge.js" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.js" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GitHub\mathLab\test" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.test">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -194,14 +159,14 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="powerSet.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="test" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="quickSort.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="test" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="false" name="reverseWord" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="reverseWord.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="reverseWord" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="test/reverseWord.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -248,17 +213,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1602" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23480487" sideWeight="0.60198456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39801544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23476161" sideWeight="0.60277134" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39722863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3439912" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34295613" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -331,132 +296,108 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/inplaceMerge.js</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/inplaceMerge.js</url>
           <line>74</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/compress.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/powerSet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="872" selection-end="1194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reverseWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="788" selection-end="1097" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binarySearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoneInterviewWithFacebook.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="395" selection-end="811" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="395" selection-end="811" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/binarySearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="77" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/powerSet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="872" selection-end="1194" vertical-scroll-proportion="0.0">
+        <state line="72" column="20" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reverseWord.js">
+    <entry file="file://$PROJECT_DIR$/test/replaceInString.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="51" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneInterviewWithFacebook.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="395" selection-end="811" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/powerSet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/powerSet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneInterviewWithFacebook.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="395" selection-end="811" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="87" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inplaceMerge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="59" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+        <state line="70" column="0" selection-start="1300" selection-end="1455" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reverseWord.js">
+    <entry file="file://$PROJECT_DIR$/test/compress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="45" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+        <state line="83" column="54" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binarySearch.js">
+    <entry file="file://$PROJECT_DIR$/rotateMatrix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="481" selection-end="692" vertical-scroll-proportion="0.0">
+        <state line="80" column="7" selection-start="1193" selection-end="1383" vertical-scroll-proportion="0.8857143">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/powerSet.js">
+    <entry file="file://$PROJECT_DIR$/test/permutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="7" selection-start="1045" selection-end="1611" vertical-scroll-proportion="0.0">
+        <state line="50" column="5" selection-start="782" selection-end="1294" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/isUniqueChars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="2" selection-start="500" selection-end="744" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/reverseWord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="21" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/stdin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="219" selection-end="242" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/nthToLast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="242" selection-end="283" vertical-scroll-proportion="0.07619048" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/linkedListAddition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="578" selection-end="578" vertical-scroll-proportion="0.26666668" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quickSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="800" selection-end="908" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc;n#quickSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isUniqueChars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.30874008">
-          <folding>
-            <element signature="n#!!doc;n#isUniqueChars#0" expanded="false" />
-          </folding>
+        <state line="12" column="23" selection-start="240" selection-end="240" vertical-scroll-proportion="0.077380955">
+          <folding />
         </state>
       </provider>
     </entry>
